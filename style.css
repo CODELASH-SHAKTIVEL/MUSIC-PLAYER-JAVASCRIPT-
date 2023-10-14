@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.brand img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 12px;
+    padding: 12px;
+    font: bolder;
+    font-size: 1.2rem;
+}
+
+.hover:hover {
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.hover1:hover {
+    background-color: gray;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.container {
+    min-height: 66vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 23px auto;
+    width: 76%;
+    border-radius: 53px;
+    padding: 34px;
+    background-image: url(background\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1397px 559px
+}
+
+.bottom {
+    position: sticky;
+    height: 78px;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 140vh;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.songsItem {
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    width: 128%;
+    color: black;
+    margin: 24px 22px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+    font-size: 12px;
+
+}
+
+.songsItem img {
+    width: 38px;
+    margin: 0px 23px;
+}
+
+.songlist {
+    position: absolute;
+    margin: 29px;
+}
+
+.timestamp {
+    margin: 0px 12px;
+}
+
+.timestamp i {
+    margin: 12px;
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 20vw;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
